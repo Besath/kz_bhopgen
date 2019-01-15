@@ -3,5 +3,6 @@ This program will create a .vmf file with the specified number of blocks placed 
 
 ## Usage
 bhop -blocks # -width # -height # -distmin # -distmax #  
-E.g.: bhop -blocks 10 -width 64 -height 128 -distmin 64 -distmax 80 will create a .vfm file with 10 64x64x128 blocks with a random distance (chosen from a range of 64-80) between them. Distance is calculated independently for X and Y axes.
+E.g.: bhop -blocks 10 -width 64 -height 128 -distmin 64 -distmax 80 will create a .vfm file with 10 64x64x128 blocks with a random distance (chosen from a range of 64-80) between them. Distance is calculated independently for X and Y axes.  
+Solid.dat, vmf_bottom.dat, and vmf_top.dat must be in the same directory as the executable.
 
